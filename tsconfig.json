@@ -12,11 +12,8 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "module": "NodeNext",
-    "outDir": "dist",
-    "rootDir": "src",
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-    "lib": ["es2022"]
-  }
+    "lib": ["es2022"],
+    "noEmit": true
+  },
+  "exclude": ["tsup.config.ts"]
 }

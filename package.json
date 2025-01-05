@@ -5,10 +5,15 @@
   "author": "Mohit Agrawal",
   "license": "MIT",
   "type": "module",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "ci": "npm run build",
-    "format": "prettier --write ."
+    "build": "tsup",
+    "ci": "npm run build && npm run check-format && npm run lint && npm run test",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "lint": "tsc",
+    "test": "vitest run",
+    "dev": "vitest"
   },
   "keywords": [
     "transalte",
@@ -27,6 +32,15 @@
   ],
   "devDependencies": {
     "prettier": "^3.4.2",
-    "typescript": "^5.7.2"
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.js",
+      "default": "./dist/index.cjs"
+    }
   }
 }

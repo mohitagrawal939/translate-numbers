@@ -1,1 +1,1 @@
-export { convertNumbers, convertToLanguage } from './utils.js';
+export * from './utils.js';

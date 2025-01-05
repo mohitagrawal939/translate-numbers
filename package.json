@@ -1,15 +1,26 @@
 {
-  "name": "translate-numbers",
-  "version": "1.0.0",
-  "description": "Transalte any number into english or vice-versa.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "transalte",
-    "numbers"
-  ],
-  "author": "Mohit Agrawal",
-  "license": "MIT"
+    "name": "translate-numbers",
+    "version": "1.0.0",
+    "description": "Transalte any number into english or vice-versa.",
+    "author": "Mohit Agrawal",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "transalte",
+        "numbers"
+    ],
+    "homepage": "https://github.com/mohitagrawal939/translate-numbers",
+    "bugs": {
+        "url": "https://github.com/mohitagrawal939/translate-numbers/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mohitagrawal939/translate-numbers.git"
+    },
+    "files": [
+        "dist"
+    ]
 }

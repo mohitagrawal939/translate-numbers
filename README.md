@@ -3,10 +3,11 @@
 Translate any number into english or vice-versa.
 
 [![CI](https://github.com/mohitagrawal939/translate-numbers/actions/workflows/ci.yml/badge.svg)](https://github.com/mohitagrawal939/translate-numbers/actions/workflows/ci.yml)
+[![MIT license](https://img.shields.io/npm/l/express-http-context2)](./LICENSE)
 
 It helps in translating any locale numbers into english or vice-versa.
 
-## **There two functions to convert:**
+## **There are two functions to convert :**
 
 ```
 convertNumbers
@@ -22,6 +23,6 @@ convertToLanguage('123', 'hindi') // Output an String - १२३
 convertToLanguage('123', 'japanese') // Output an String - 一二三
 ```
 
-Currently supports `English` `Spansih` `Hindi` `Japanese` `Chinese`
+Currently supports `English` `Spanish` `Hindi` `Japanese` `Chinese`
 
-> I will be adding more langauges in next updates.
+NOTE - I will be adding more langauges in next coming updates. For anything please drop an mail at *hey@mohitagrawal.xyz*

@@ -3,7 +3,7 @@
 Translate any number into english or vice-versa.
 
 [![CI](https://github.com/mohitagrawal939/translate-numbers/actions/workflows/ci.yml/badge.svg)](https://github.com/mohitagrawal939/translate-numbers/actions/workflows/ci.yml)
-[![MIT license](https://img.shields.io/npm/l/express-http-context2)](./LICENSE)
+[![MIT license](https://img.shields.io/npm/l/translate-numbers)](./LICENSE)
 
 It helps in translating any locale numbers into english or vice-versa.
 

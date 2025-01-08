@@ -1,7 +1,9 @@
 import { numberMappings } from './translateNumbersMapping.js';
-import type { Language } from './translateType.js';
+import type { TNLanguage } from './translateType.js';
 
-export function convertNumbers(input: string, language: Language): string {
+export type { TNLanguage as default };
+
+export function convertNumbers(input: string, language: TNLanguage): string {
   const mapping = numberMappings[language];
   if (!mapping) {
     throw new Error(`Language ${language} not supported.`);
@@ -12,7 +14,7 @@ export function convertNumbers(input: string, language: Language): string {
   return input.replace(regex, (match) => mapping[match] || match);
 }
 
-export function convertToLanguage(input: string, language: Language): string {
+export function convertToLanguage(input: string, language: TNLanguage): string {
   const mapping = numberMappings[language];
   if (!mapping) {
     throw new Error(`Language ${language} not supported.`);

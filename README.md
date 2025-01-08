@@ -10,10 +10,10 @@ It helps in translating any locale numbers into english or vice-versa.
 ## **There are two functions to convert :**
 
 ```
-convertNumbers
+convertToNumbers
 
-convertNumbers('१२३', 'hindi') // Output an String - 123
-convertNumbers('一二三', 'japanese') // Output an String - 123
+convertToNumbers('१२३', 'hindi') // Output an String - 123
+convertToNumbers('一二三', 'japanese') // Output an String - 123
 ```
 
 ```
@@ -23,6 +23,8 @@ convertToLanguage('123', 'hindi') // Output an String - १२३
 convertToLanguage('123', 'japanese') // Output an String - 一二三
 ```
 
-Currently supports `English` `Spanish` `Hindi` `Japanese` `Chinese`
+For live demo and testing [click here](https://tn-demo.mohitagrawal.xyz/)
+
+Currently supports `Chinese` `English` `Hindi` `Japanese` `Spanish`
 
 NOTE - I will be adding more langauges in next coming updates. For anything please drop an mail at *hey@mohitagrawal.xyz*

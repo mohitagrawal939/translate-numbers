@@ -3,7 +3,7 @@ import type { TNLanguage } from './translateType.js';
 
 export type { TNLanguage as default };
 
-export function convertNumbers(input: string, language: TNLanguage): string {
+export function convertToNumbers(input: string, language: TNLanguage): string {
   const mapping = numberMappings[language];
   if (!mapping) {
     throw new Error(`Language ${language} not supported.`);

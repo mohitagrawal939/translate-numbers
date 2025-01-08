@@ -1,12 +1,12 @@
-import { convertNumbers, convertToLanguage } from './utils.js';
+import { convertToNumbers, convertToLanguage } from './utils.js';
 
 import { test, expect } from 'vitest';
 
 test('convert numbers 1', () => {
-  expect(convertNumbers('१२३', 'hindi')).toBe('123');
+  expect(convertToNumbers('१२३', 'hindi')).toBe('123');
 });
 test('convert numbers 2', () => {
-  expect(convertNumbers('一二三', 'japanese')).toBe('123');
+  expect(convertToNumbers('一二三', 'japanese')).toBe('123');
 });
 
 test('convert language 1', () => {

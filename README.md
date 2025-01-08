@@ -1,20 +1,13 @@
 **translate-numbers**
 
-Translate any number into english or vice-versa.
+Translate a english number into desired langauge.
 
 [![CI](https://github.com/mohitagrawal939/translate-numbers/actions/workflows/ci.yml/badge.svg)](https://github.com/mohitagrawal939/translate-numbers/actions/workflows/ci.yml)
 [![MIT license](https://img.shields.io/npm/l/translate-numbers)](./LICENSE)
 
-It helps in translating any locale numbers into english or vice-versa.
+It helps in translating a english number into various supported locale.
 
-## **There are two functions to convert :**
-
-```
-convertToNumbers
-
-convertToNumbers('१२३', 'hindi') // Output an String - 123
-convertToNumbers('一二三', 'japanese') // Output an String - 123
-```
+## **Function to convert is as following :**
 
 ```
 convertToLanguage

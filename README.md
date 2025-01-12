@@ -12,8 +12,8 @@ It helps in translating a english number into various supported locale.
 ```
 convertToLanguage
 
-convertToLanguage('123', 'hindi') // Output an String - १२३
-convertToLanguage('123', 'japanese') // Output an String - 一二三
+convertToLanguage(123, 'hindi') // Output an String - १२३
+convertToLanguage(123, 'japanese') // Output an String - 一二三
 ```
 
 For live demo and testing [click here](https://tn-demo.mohitagrawal.xyz/)

@@ -3,7 +3,8 @@ export type TNLanguage =
   | 'english'
   | 'hindi'
   | 'japanese'
-  | 'spanish';
+  | 'spanish'
+  | 'korean';
 
 export type LanguageMap = {
   [key in TNLanguage]: { [key: string]: string };

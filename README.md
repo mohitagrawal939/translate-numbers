@@ -18,6 +18,6 @@ convertToLanguage(123, 'japanese') // Output an String - 一二三
 
 For live demo and testing [click here](https://tn-demo.mohitagrawal.xyz/)
 
-Currently supports `Chinese` `English` `Hindi` `Japanese` `Spanish`
+Currently supports `Chinese` `English` `Hindi` `Japanese` `Spanish` `Korean`
 
 NOTE - I will be adding more languages in next coming updates. For anything please drop an mail at *hey@mohitagrawal.xyz*

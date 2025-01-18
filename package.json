@@ -1,6 +1,6 @@
 {
   "name": "translate-numbers",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "An utility NPM package to translate a english number into desired language.",
   "author": "Mohit Agrawal",
   "license": "MIT",

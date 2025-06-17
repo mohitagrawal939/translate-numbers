@@ -16,8 +16,8 @@ convertToLanguage(123, 'hindi') // Output an String - १२३
 convertToLanguage(123, 'japanese') // Output an String - 一二三
 ```
 
-For live demo and testing [click here](https://tn-demo.mohitagrawal.xyz/)
+For live demo and testing [click here](https://tn-demo.mohitagrawal.com/)
 
 Currently supports `Chinese` `English` `Hindi` `Japanese` `Spanish` `Korean`
 
-NOTE - I will be adding more languages in next coming updates. For anything please drop an mail at *hey@mohitagrawal.xyz*
+NOTE - I will be adding more languages in next coming updates. For anything please drop an mail at *hey@mohitagrawal.com*

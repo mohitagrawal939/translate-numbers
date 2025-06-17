@@ -1,6 +1,6 @@
 {
   "name": "translate-numbers",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "An utility NPM package to translate a english number into desired language.",
   "author": "Mohit Agrawal",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "transalte",
     "numbers"
   ],
-  "homepage": "https://tn-demo.mohitagrawal.xyz",
+  "homepage": "https://tn-demo.mohitagrawal.com",
   "bugs": {
     "url": "https://github.com/mohitagrawal939/translate-numbers/issues"
   },
